@@ -2,12 +2,23 @@ body{
     background-color:black;
 }
 
-div {
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+h3 {
+    background-color: white;
 }
+
+div>div {
+    height: auto;
+    width: 70px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    animation: mymove 5s normal;
+}  
+@keyframes mymove {
+    0%   {top: 0px;}
+  
+    100% {
+        top: 70vh;
+}
+  }

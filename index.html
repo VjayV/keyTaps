@@ -3,22 +3,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Key Taps</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.js"></script>
-    <script type="text/javascript">
-      window.addEventListener("keydown", function(evt){
-        keyData[event.key].sound.play();
-                  console.log(event);
-      });
-      document.onkeypress = function(e) {
-        console.log('keypress');
-      document.getElementById("rt").innerHTML=e.key;
-      }
-    </script>
   </head>
   <body>
-<div id='rt'></div>
- <script type="text/javascript" src="sounds.js"></script>
+    <div id='rt'></div>
+    <script type="module" src="keys.js"></script>
   </body>
 </html>
