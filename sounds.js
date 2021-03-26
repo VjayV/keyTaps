@@ -1,4 +1,4 @@
-var keyData = {
+export let keyData = {
 
     q: {
         sound: new Howl({
